@@ -19,7 +19,9 @@ using namespace std;
 
 typedef long long ll;
 #define debug(args...) dbg(),args
+#define S(N) scanf("%d",&N)
 #define FOR(A,B,C) for(int A=B;A<C;A++)
+#define EFOR(A,B,C) for(int A=B;A<=C;A++)
 #define PB(A,B) A.push_back(B);
 #define ALL(A) A.rbegin(),A.rend()
 #define MEM(A,B) memset(A,B,sizeof(A))
